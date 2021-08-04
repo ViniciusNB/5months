@@ -91,7 +91,11 @@ p {
 
 .redir ul li {
   display: inline;
-  padding: 10px;
   justify-content: center;
   align-items: center;
+  list-style: none;
+}
+
+ul {
+ list-style: none;
 }
