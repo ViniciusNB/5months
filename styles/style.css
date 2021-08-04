@@ -1,0 +1,97 @@
+header {
+	background-color: white;
+  width: 100%;
+  top: 0;
+}
+
+.logo {
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+html, body {height:100%;}
+
+body {
+  background: #f09433; 
+  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+  background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+}
+
+
+h1 {
+	color: #ffffff;
+	font-family: 'Ubuntu Mono', monospace;
+	text-align: center;
+}
+
+.video {
+  display: flex;
+	justify-content: center;
+}
+
+.questionario {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+
+footer {
+	background-color: white;
+  width: 100%;
+  bottom: 0;
+}
+
+
+.wrapper {
+  /*This part is important for centering*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.typing-demo {
+  width: 40ch;
+  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 6px solid;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    color: white;
+  }
+}
+
+
+.reasons {
+  background-color: white;
+}
+
+p {
+  font-family: 'Titillium Web', sans-serif;
+  color: black;
+  padding: 20px;
+}
+
+.redir ul li {
+  display: inline;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+}
