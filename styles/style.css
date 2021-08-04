@@ -102,4 +102,7 @@ p {
 
 ul {
  list-style: none;
+ width: 70%;
+ margin: auto;
+ display: inline-block;
 }
