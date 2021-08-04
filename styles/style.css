@@ -96,6 +96,10 @@ p {
   list-style: none;
 }
 
+.redir {
+  background-color: white;
+}
+
 ul {
  list-style: none;
 }
