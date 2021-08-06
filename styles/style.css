@@ -114,7 +114,11 @@ ul {
 }
 
 .bilhetes {
-  background-color: rgb(0, 89, 255);
+
+
+
+  background-image: url(), linear-gradient(#01adeb, #760ca0);
+  background-size: cover;
 }
 
 .imgs {
