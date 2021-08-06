@@ -106,3 +106,17 @@ ul {
  margin: auto;
  display: inline-block;
 }
+
+.music {
+  position: fixed;
+  padding-left: 10%;
+  bottom: 5%;
+}
+
+.bilhetes {
+  background-color: rgb(0, 89, 255);
+}
+
+.imgs {
+  justify-content: center;
+}
