@@ -44,7 +44,7 @@ h1 {
 }
 
 footer {
-	background-color: white;
+	background-color: #1c1c1c;
   width: 100%;
   bottom: 0;
 }
@@ -94,10 +94,11 @@ p {
   justify-content: center;
   align-items: center;
   list-style: none;
+  margin: 15px;
 }
 
 .redir {
-  background-color: white;
+padding-top: 20px;
 }
 
 ul {
@@ -109,8 +110,8 @@ ul {
 
 .music {
   position: fixed;
-  padding-left: 12.5%;
-  bottom: 5%;
+  width: 100%;
+  bottom: 7.5%;
 }
 
 .bilhetes {
