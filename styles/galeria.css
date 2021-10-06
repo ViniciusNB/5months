@@ -27,8 +27,6 @@ body {
   margin-top: 450px;
 }
 
-
-
 h1 {
 	color: #ffffff;
 	font-family: 'Ubuntu Mono', monospace;
@@ -138,11 +136,8 @@ ul {
 }
 
 button {
-  padding: 5px;
-  margin: 20px;
-  margin-bottom: 10px;
   color: #151515;
-  background-color: white;
+  background-color: rgb(243, 243, 243);
   border: none;
   height: 50px;
   line-height: 30px;
@@ -154,7 +149,14 @@ button {
   border-radius: 50px;
   outline: none;
   outline-style: none;
-  border: none;
+}
+
+.music button{
+  position: fixed;
+  bottom: 8%;
+  z-index: 3;
+  margin-left: 50vh;
+  margin-bottom: 6px;
 }
 
 @media(max-width:768px){
@@ -174,4 +176,55 @@ button {
   body {
     margin-top: 150px;
   }
+
+  audio {
+    width: 70%;
+  }
+
+  .music #down{
+    margin: 5px;
+    margin-bottom: 5px;
+  }
+
+  .music {
+    margin: 0;
+    padding: 0;
+    padding-right: 5vh;
+  }
+
+  header {
+    background-color: white;
+    width: 100%;
+    top: 0;
+    position: absolute;
+  }
+  
+  .logo {
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+  }
+  
+  html, body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  html, body {height:100%;}
+  
+  body {
+    background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%) fixed; 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+  }
+
+  header {
+	background-color: white;
+  width: 100%;
+  top: 0;
+  position: absolute;
+}
+
 }
