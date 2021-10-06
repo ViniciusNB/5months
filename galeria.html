@@ -21,78 +21,374 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
+
 </head>
 
 <header>
-    <div class="logo" align="center">
+    <div class="logo" id="logo" onclick="Redir();" align="center">
         <img src="images/sosofi.jpeg" alt="02" style="width: 25%; border-radius: 50%; justify-content: center;">
         <!-- "https://www.pngitem.com/pimgs/m/230-2304067_darling-in-the-franxx-zero-two-icon-png.png" -->
     </div>
 
+    <div class="music" align="center">
+        <audio class="player" autoplay="autoplay" controls="controls" loop="loop">
+            <source src="musica3.mp3" type="audio/mp3" />
+            Seu navegador não suporta HTML5
+        </audio>
+    </div>
 </header>
 
 <body>
-    <div class="carrossel">
-        <div class="container" id="img">
-            <img src="images/soso/1.jpeg" >
-            <img src="images/soso/2.jpeg" >
-            <img src="images/soso/3.jpeg" >
-            <img src="images/soso/4.jpeg" >
-            <img src="images/soso/5.jpeg" >
-            <img src="images/soso/6.jpeg" >
-            <img src="images/soso/7.jpeg" >
-            <img src="images/soso/8.jpeg" >
-            <img src="images/soso/9.jpeg" >
-            <img src="images/soso/10.jpeg" >
-            <img src="images/soso/11.jpeg" >
-            <img src="images/soso/12.jpeg" >
-            <img src="images/soso/13.jpeg" >
-            <img src="images/soso/14.jpeg" >
-            <img src="images/soso/15.jpeg" >
-            <img src="images/soso/16.jpeg" >
-            <img src="images/soso/17.jpeg" >
-            <img src="images/soso/18.jpeg" >
-            <img src="images/soso/19.gif" >
-            <img src="images/soso/20.jpeg" >
-            <img src="images/soso/21.gif" >
-            <img src="images/soso/22.gif" >
-            <img src="images/soso/23.jpeg" >
-            <img src="images/soso/24.jpeg">
-            <img src="images/soso/25.jpeg">
-            <img src="images/soso/26.gif">
-            <img src="images/soso/27.jpeg">
-            <img src="images/soso/28.jpeg">
-            <img src="images/soso/29.jpeg">
-            <img src="images/soso/30.jpeg">
-            <img src="images/soso/31.jpeg">
-            <img src="images/soso/32.jpeg">
-            <img src="images/soso/33.jpeg">
-            <img src="images/soso/34.jpeg">
-            <img src="images/soso/35.jpeg">
-            <img src="images/soso/36.jpeg">
-            <img src="images/soso/37.jpeg">
-            <img src="images/soso/38.jpeg">
-            <img src="images/soso/39.jpeg">
-            <img src="images/soso/40.jpeg">
-            <img src="images/soso/41.jpeg">
-            <img src="images/soso/42.jpeg">
-            <img src="images/soso/43.jpeg">
-            <img src="images/soso/44.jpeg">
-            <img src="images/soso/45.gif">
-            <img src="images/soso/46.jpeg">
-            <img src="images/soso/47.jpeg">
+    <h1 style="margin-top: 130px; margin-bottom: 0;">Galeria para esquecer dos problemas</h1>
+    <div class="container-galeria">
+        <div class="item-galeria w-1 h-2">
+            <img class="img-galeria" src="images/soso/1.jpeg">
+            <span class="title-galeria">
+                Imagem 1
+            </span>
+        </div>
+        <div class="item-galeria w-2 h-1">
+            <img class="img-galeria" src="images/soso/2.jpeg">
+            <span class="title-galeria">
+                Imagem 1
+            </span>
+        </div>
+        <div class="item-galeria w-1 h-2">
+            <img class="img-galeria" src="images/soso/3.jpeg">
+            <span class="title-galeria">
+                Imagem 1
+            </span>
+        </div>
+        <div class="item-galeria w-2 h-1">
+            <img class="img-galeria" src="images/soso/4.jpeg">
+            <span class="title-galeria">
+                Imagem 1
+            </span>
+        </div>
+        <div class="item-galeria w-2 h-1">
+            <img class="img-galeria" src="images/soso/5.jpeg">
+            <span class="title-galeria">
+                Imagem 1
+            </span>
+        </div>
+        <div class="item-galeria w-2 h-2">
+            <img class="img-galeria" src="images/soso/6.jpeg">            
+            <span class="title-galeria">
+                Imagem 1
+            </span>
+        </div>
+        <div class="item-galeria w-1 h-1">
+            <img class="img-galeria" src="images/soso/7.jpeg">            
+            <span class="title-galeria">
+                Imagem 1
+            </span>
+        </div>
+        <div class="item-galeria w-1 h-1">
+            <img class="img-galeria" src="images/soso/8.jpeg">        
+            <span class="title-galeria">
+                Imagem 1
+            </span>
+        </div>
+        <div class="item-galeria w-2 h-2">
+            <img class="img-galeria" src="images/soso/9.jpeg">            
+            <span class="title-galeria">
+                Imagem 1
+            </span>
+        </div>
+        <div class="item-galeria w-1 h-1">
+            <img class="img-galeria" src="images/soso/10.jpeg">            
+            <span class="title-galeria">
+                Imagem 1
+            </span>
+        </div>
+        <div class="item-galeria w-1 h-1">
+            <img class="img-galeria" src="images/soso/11.jpeg">            
+            <span class="title-galeria">
+                Imagem 1
+            </span>
+        </div>
+        <div class="item-galeria w-2 h-1">
+            <img class="img-galeria" src="images/soso/12.jpeg">            
+            <span class="title-galeria">
+                Imagem 1
+            </span>
+        </div>
+        <div class="item-galeria w-2 h-2">
+            <img class="img-galeria" src="images/soso/13.jpeg">            
+            <span class="title-galeria">
+                Imagem 1
+            </span>
+        </div>
+        <div class="item-galeria w-2 h-2">
+            <img class="img-galeria" src="images/soso/14.jpeg">            
+            <span class="title-galeria">
+                Imagem 1
+            </span>
+        </div>
+        <div class="item-galeria w-2 h-2">
+            <img class="img-galeria" src="images/soso/15.jpeg">
+            <span class="title-galeria w-2 h-1">
+                Imagem 1
+            </span>
+        </div>
+        <div class="item-galeria w-2 h-1">
+            <img class="img-galeria" src="images/soso/16.jpeg">
+            <span class="title-galeria">
+                Imagem 1
+            </span>
+        </div>
+        <div class="item-galeria w-2 h-1">
+            <img class="img-galeria" src="images/soso/17.jpeg">            
+            <span class="title-galeria">
+                Imagem 1
+            </span>
+        </div>
+        <div class="item-galeria w-1 h-2">
+            <img class="img-galeria" src="images/soso/18.jpeg">
+            <span class="title-galeria">
+                Imagem 1
+            </span>
+        </div>
+        <div class="item-galeria w-1 h-2">
+            <img class="img-galeria" src="images/soso/19.gif">            
+            <span class="title-galeria">
+                Imagem 1
+            </span>
+        </div>
+        <div class="item-galeria w-2 h-2">
+            <img class="img-galeria" src="images/soso/20.jpeg">            
+            <span class="title-galeria">
+                Imagem 1
+            </span>
+        </div>
+        <div class="item-galeria w-2 h-1">
+            <img class="img-galeria" src="images/soso/21.gif">            
+            <span class="title-galeria">
+                Imagem 1
+            </span>
+        </div>
+        <div class="item-galeria w-2 h-2">
+            <img class="img-galeria" src="images/soso/22.gif">            
+            <span class="title-galeria">
+                Imagem 1
+            </span>
+        </div>
+        <div class="item-galeria w-2 h-1">
+            <img class="img-galeria" src="images/soso/23.jpeg">            
+            <span class="title-galeria">
+                Imagem 1
+            </span>
+        </div>
+        <div class="item-galeria w-2 h-2">
+            <img class="img-galeria" src="images/soso/24.jpeg">           
+            <span class="title-galeria">
+                Imagem 1
+            </span>
+        </div>
+        <div class="item-galeria w-1 h-1">
+            <img class="img-galeria" src="images/soso/25.jpeg">            
+            <span class="title-galeria">
+                Imagem 1
+            </span>
+        </div>
+        <div class="item-galeria w-1 h-2">
+            <img class="img-galeria" src="images/soso/26.gif">            
+            <span class="title-galeria">
+                Imagem 1
+            </span>
+        </div>
+        <div class="item-galeria w-1 h-1">
+            <img class="img-galeria" src="images/soso/27.jpeg">            
+            <span class="title-galeria">
+                Imagem 1
+            </span>
+        </div>
+        <div class="item-galeria w-2 h-1">
+            <img class="img-galeria" src="images/soso/28.jpeg">            
+            <span class="title-galeria">
+                Imagem 1
+            </span>
+        </div>
+        <div class="item-galeria w-2 h-2">
+            <img class="img-galeria" src="images/soso/29.jpeg">           
+            <span class="title-galeria">
+                Imagem 1
+            </span>
+        </div>
+        <div class="item-galeria w-1 h-2">
+            <img class="img-galeria" src="images/soso/30.jpeg">
+            
+            <span class="title-galeria">
+                Imagem 1
+            </span>
+        </div>
+        <div class="item-galeria w-2 h-2">
+            <img class="img-galeria" src="images/soso/31.jpeg">            
+            <span class="title-galeria">
+                Imagem 1
+            </span>
+        </div>
+        <div class="item-galeria w-1 h-2">
+            <img class="img-galeria" src="images/soso/32.jpeg">
+            <span class="title-galeria">
+                Imagem 1
+            </span>
+        </div>
+        <div class="item-galeria w-2 h-1">
+            <img class="img-galeria" src="images/soso/33.jpeg">            
+            <span class="title-galeria">
+                Imagem 1
+            </span>
+        </div>
+        <div class="item-galeria w-1 h-1">
+            <img class="img-galeria" src="images/soso/34.jpeg">
+            
+            <span class="title-galeria">
+                Imagem 1
+            </span>
+        </div>
+        <div class="item-galeria w-1 h-1">
+            <img class="img-galeria" src="images/soso/35.jpeg">            
+            <span class="title-galeria">
+                Imagem 1
+            </span>
+        </div>
+        <div class="item-galeria w-2 h-2">
+            <img class="img-galeria" src="images/soso/36.jpeg">            
+            <span class="title-galeria">
+                Imagem 1
+            </span>
+        </div>
+        <div class="item-galeria w-2 h-1">
+            <img class="img-galeria" src="images/soso/37.jpeg">            
+            <span class="title-galeria">
+                Imagem 1
+            </span>
+        </div>
+        <div class="item-galeria w-2 h-2">
+            <img class="img-galeria" src="images/soso/38.jpeg">
+            <span class="title-galeria">
+                Imagem 1
+            </span>
+        </div>
+        <div class="item-galeria w-2 h-1">
+            <img class="img-galeria" src="images/soso/39.jpeg">
+            <span class="title-galeria">
+                Imagem 1
+            </span>
+        </div>
+        <div class="item-galeria w-2 h-2">
+            <img class="img-galeria" src="images/soso/40.jpeg">
+            <span class="title-galeria">
+                Imagem 1
+            </span>
+        </div>
+        <div class="item-galeria w-1 h-1">
+            <img class="img-galeria" src="images/soso/41.jpeg">
+            <span class="title-galeria">
+                Imagem 1
+            </span>
+        </div>
+        <div class="item-galeria w-2 h-1">
+            <img class="img-galeria" src="images/soso/42.jpeg">
+            
+            <span class="title-galeria">
+                Imagem 1
+            </span>
+        </div>
+        <div class="item-galeria w-1 h-1">
+            <img class="img-galeria" src="images/soso/43.jpeg">
+            <span class="title-galeria">
+                Imagem 1
+            </span>
+        </div>
+        <div class="item-galeria w-1 h-1">
+            <img class="img-galeria" src="images/soso/44.jpeg">
+            <span class="title-galeria">
+                Imagem 1
+            </span>
+        </div>
+        <div class="item-galeria w-2 h-1">
+            <img class="img-galeria" src="images/soso/45.gif">
+            <span class="title-galeria">
+                Imagem 1
+            </span>
+        </div>
+        <div class="item-galeria w-1 h-1">
+            <img class="img-galeria" src="images/soso/46.jpeg">
+            <span class="title-galeria">
+                Imagem 1
+            </span>
+        </div>
+        <div class="item-galeria w-2 h-1">
+            <img class="img-galeria" src="images/soso/47.jpeg">
+            <span class="title-galeria">
+                Imagem 1
+            </span>
         </div>
     </div>
+
+    <!--<div class="carousel">
+        <div class="container-galeria" id="img">
+            <img class="carousel-item" src="images/soso/1.jpeg">
+            <img class="carousel-item" src="images/soso/2.jpeg">
+            <img class="carousel-item" src="images/soso/3.jpeg">
+            <img class="carousel-item" src="images/soso/4.jpeg">
+            <img class="carousel-item" src="images/soso/5.jpeg">
+            <img class="carousel-item" src="images/soso/6.jpeg">
+            <img class="carousel-item" src="images/soso/7.jpeg">
+            <img class="carousel-item" src="images/soso/8.jpeg">
+            <img class="carousel-item" src="images/soso/9.jpeg">
+            <img class="carousel-item" src="images/soso/10.jpeg">
+            <img class="carousel-item" src="images/soso/11.jpeg">
+            <img class="carousel-item" src="images/soso/12.jpeg">
+            <img class="carousel-item" src="images/soso/13.jpeg">
+            <img class="carousel-item" src="images/soso/14.jpeg">
+            <img class="carousel-item" src="images/soso/15.jpeg">
+            <img class="carousel-item" src="images/soso/16.jpeg">
+            <img class="carousel-item" src="images/soso/17.jpeg">
+            <img class="carousel-item" src="images/soso/18.jpeg">
+            <img class="carousel-item" src="images/soso/19.gif">
+            <img class="carousel-item" src="images/soso/20.jpeg">
+            <img class="carousel-item" src="images/soso/21.gif">
+            <img class="carousel-item" src="images/soso/22.gif">
+            <img class="carousel-item" src="images/soso/23.jpeg">
+            <img class="carousel-item" src="images/soso/24.jpeg">
+            <img class="carousel-item" src="images/soso/25.jpeg">
+            <img class="carousel-item" src="images/soso/26.gif">
+            <img class="carousel-item" src="images/soso/27.jpeg">
+            <img class="carousel-item" src="images/soso/28.jpeg">
+            <img class="carousel-item" src="images/soso/29.jpeg">
+            <img class="carousel-item" src="images/soso/30.jpeg">
+            <img class="carousel-item" src="images/soso/31.jpeg">
+            <img class="carousel-item" src="images/soso/32.jpeg">
+            <img class="carousel-item" src="images/soso/33.jpeg">
+            <img class="carousel-item" src="images/soso/34.jpeg">
+            <img class="carousel-item" src="images/soso/35.jpeg">
+            <img class="carousel-item" src="images/soso/36.jpeg">
+            <img class="carousel-item" src="images/soso/37.jpeg">
+            <img class="carousel-item" src="images/soso/38.jpeg">
+            <img class="carousel-item" src="images/soso/39.jpeg">
+            <img class="carousel-item" src="images/soso/40.jpeg">
+            <img class="carousel-item" src="images/soso/41.jpeg">
+            <img class="carousel-item" src="images/soso/42.jpeg">
+            <img class="carousel-item" src="images/soso/43.jpeg">
+            <img class="carousel-item" src="images/soso/44.jpeg">
+            <img class="carousel-item" src="images/soso/45.gif">
+            <img class="carousel-item" src="images/soso/46.jpeg">
+            <img class="carousel-item" src="images/soso/47.jpeg">
+        </div>
+    </div> -->
     <br>
     <br>
 
 </body>
-
 <footer>
-    <div class="footer">
-        <h1 style="font-size: 17px; color: white; padding: 15px; margin: 0;">Made by Vinícius N. © 2021</h1>
-        <h1 class="rainbow" style="font-size: 17px; color: rgb(61, 61, 61); padding: 5px; margin: 0;">Agradecimento especial a todos do reddit que me ajudaram <3</h1>
-        <br>
+    <br>
+    <div class="footer">        
+        <h1 class="rainbow" style="font-size: 17px; color: rgb(61, 61, 61); padding: 5px; margin: 0;">Love U <3</h1>
+        <h1 style="font-size: 17px; color: white; padding: 5px; margin: 0;">Made by Vinícius N. © 2021</h1>
     </div>
+    <br>
 </footer>
 </html>

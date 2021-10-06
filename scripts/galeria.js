@@ -1,16 +1,3 @@
-const imgs = document.getElementById("img");
-const img = document.querySelectorAll("#img img");
-
-let idx = 0;
-
-function carrossel() {
-    idx++;
-
-    if(idx > img.length - 1) {
-        idx = 0;
-    }
-
-    imgs.style.transform = `translateX(${-idx * 480}px)`;
+function Redir() {
+    window.location.href = "http://viniciusnb.github.io/5months";
 }
-
-setInterval(carrossel, 2500);
