@@ -2,7 +2,7 @@
 
 function pageScroll() {
     window.scrollBy(0,1);
-    scrolldelay = setTimeout(pageScroll, 3gi0);
+    scrolldelay = setTimeout(pageScroll, 30);
 }
 
 function Redir() {
